@@ -1,5 +1,5 @@
 // src/services/api.js
-const BASE = "http://3.220.24.160";
+const BASE = "https://d3hem1c2ka17ud.cloudfront.net/api ";
 
 /**
  * Crea una nueva sala (sesión de práctica)
