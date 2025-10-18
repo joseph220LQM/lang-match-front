@@ -46,7 +46,7 @@ export default function SelectLanguage() {
       <h2 className="text-xl font-semibold mb-4">Start practice session</h2>
       <form onSubmit={handleStart} className="space-y-4">
         <div>
-          <label className="block text-sm font-medium">Language</label>
+          <label className="block text-sm font-medium">Languages</label>
           <select value={language} onChange={(e) => setLangLocal(e.target.value)} className="mt-1 block w-full border rounded p-2">
             <option>Inglés</option>
             <option>Español</option>
@@ -56,7 +56,7 @@ export default function SelectLanguage() {
         </div>
 
         <div>
-          <label className="block text-sm font-medium">Level</label>
+          <label className="block text-sm font-medium">Levels</label>
           <select value={level} onChange={(e) => setLevelLocal(e.target.value)} className="mt-1 block w-full border rounded p-2">
             <option>Beginner</option>
             <option>Intermediate</option>
