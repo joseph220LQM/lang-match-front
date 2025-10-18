@@ -1,5 +1,5 @@
 // src/services/api.js
-const BASE = "http://ec2-3-220-24-160.compute-1.amazonaws.com";
+const BASE = "http://3.220.24.160";
 
 /**
  * Crea una nueva sala (sesión de práctica)
