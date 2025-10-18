@@ -1,5 +1,5 @@
 // src/services/api.js
-const BASE = "https://lang-match-back.vercel.app";
+const BASE = "http://3.220.24.160";
 
 /**
  * Crea una nueva sala (sesión de práctica)
