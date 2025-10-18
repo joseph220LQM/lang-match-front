@@ -88,7 +88,7 @@ export default function ChatBot() {
     <div className="max-w-3xl mx-auto bg-white rounded shadow p-4 flex flex-col" style={{ height: "75vh" }}>
       <div className="mb-3">
         <div className="text-sm text-gray-600">
-          Language: <span className="font-medium">{language}</span> · Level:{" "}
+          Languages: <span className="font-medium">{language}</span> · Level:{" "}
           <span className="font-medium">{level}</span>
         </div>
       </div>
